@@ -1,36 +1,23 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
+/* ALL - ESTANTE */
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-
+/* HEADER - ESTANTE */
 header {
-    margin-bottom: 120px;
-}
-
-header nav {
-    border: 2px solid #777;
-    align-items: center;
-    padding: 50px 50px;
-    box-sizing: border-box;
     position: fixed;
-    height: 50px;
-    width: 100%;
-
-    display: flex;
-    justify-content: space-between;
-    background-color: rgb(221, 221, 221);
-    margin-bottom: 50px;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #ffffff;
+    padding: 20px 20px;
+    z-index: 1000;
 }
-
-body {
-    font-family: 'Inter Tight', sans-serif;
-    padding: 20px;
-}
-
+/* NAV - ESTANTE */
 
 nav h1 {
     font-size: 30px;
@@ -38,4 +25,26 @@ nav h1 {
 
 .NavDiv a {
     font-size: 16px;
+}
+
+header nav {
+    border: 2px solid #777;
+    align-items: center;
+    /* ESPACO INVISIVEL DO TEXTO E ICONE */
+    padding: 0px 50px;
+    box-sizing: border-box;
+    /* TIPO / LOCALIZAÇÃO DA POSIÇÃO */
+    /* TAMANHO DO BACKGROUND NAV */
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(221, 221, 221);
+}
+
+/* BODY - ESTANTE */
+body {
+    font-family: 'Open Sans', sans-serif;
+    padding: 20px 45px;
+    padding-top: 140px; 
 }
